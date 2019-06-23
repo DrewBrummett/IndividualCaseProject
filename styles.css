@@ -7,6 +7,13 @@
 	box-sizing: border-box; 
 	font-family: helvetica;
 }
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: red;
+}
 html {
 	max-height:100vh;
 	height: 100vh;
@@ -20,7 +27,7 @@ body {
 	overflow: hidden;
 }
 nav {
-	background-color:grey;
+	background-color:;
 	height:;
 	overflow: hidden;
 }
@@ -43,18 +50,23 @@ nav li {
 	margin-top:;
 	display: inline;
 }
-#main-content {
+#main-header {
 	overflow:hidden;
 	margin: auto;
 	width: 70%;
-	background-color: red;
-	height: 100vh;
+	background-color:;
+	padding-top:10%;
+}
+#main-content {
+	padding-top: 5%;
+	margin: auto;
+	width: 70%;
 }
 footer {
 	padding: 1%;
-	background-color:grey;
+	background-color:;
 	position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
