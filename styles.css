@@ -50,17 +50,25 @@ nav li {
 	margin-top:;
 	display: inline;
 }
-#main-header {
+.main-header {
 	overflow:hidden;
 	margin: auto;
 	width: 70%;
 	background-color:;
 	padding-top:15%;
 }
-#main-content {
+#codepen {
+	padding-top:8%;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.main-content {
 	padding-top: 5%;
 	margin: auto;
 	width: 70%;
+}
+#about-me-bio {
+	width: 40%;
 }
 footer {
 	padding: 1%;
@@ -69,4 +77,19 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+}
+#other-projects{
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	flex-flow:center;
+	align-content: space-between;
+}
+.content-box {
+	border-radius:15px;
+	margin:auto;
+	margin-bottom:10px;
+	background-color:black;
+	height:175px;
+	width:250px;
 }
