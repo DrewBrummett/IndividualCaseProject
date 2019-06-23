@@ -1,0 +1,60 @@
+/* CSS Reset */
+* { 
+	margin:0;
+	padding:0; 
+	font-size:; 
+	line-height:1; 
+	box-sizing: border-box; 
+	font-family: helvetica;
+}
+html {
+	max-height:100vh;
+	height: 100vh;
+}
+body {
+	max-height: 100vh;
+	color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to bottom right, #360033, #0b8793);
+	overflow: hidden;
+}
+nav {
+	background-color:grey;
+	height:;
+	overflow: hidden;
+}
+nav p {
+	padding: 1%;
+  margin: 0px;
+	float:left;
+  text-align:;
+  display:inline;
+  vertical-align:top;
+}
+nav ul{
+	padding: 1%;
+  margin: 0px;
+  float: right;
+  display:inline;
+  vertical-align:top;
+}
+nav li {
+	margin-top:;
+	display: inline;
+}
+#main-content {
+	overflow:hidden;
+	margin: auto;
+	width: 70%;
+	background-color: red;
+	height: 100vh;
+}
+footer {
+	padding: 1%;
+	background-color:grey;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
